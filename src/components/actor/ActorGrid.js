@@ -1,13 +1,13 @@
 import React from 'react';
 import ActorCard from './ActorCard';
-import IMAGE_NOT_FOUND from '../..//misc/Asstes - BoxOffice/not-found.png';
+import IMAGE_NOT_FOUND from '../../misc/Asstes - BoxOffice/not-found.png';
 import { FlexGrid } from '../styled';
 
 const ActorGrid = ({ data }) => {
-  return;
-  <FlexGrid>
-    {data.map(({ person }) => (
-      <ActorCard
+  return (
+    <FlexGrid>
+      {data.map(person => (
+        <ActorCard
         key={person.id}
         name={person.name}
         country={person.country ? person.country.name : null}
@@ -16,8 +16,9 @@ const ActorGrid = ({ data }) => {
         gender={person.gender}
         image={person.image ? person.image.medium : IMAGE_NOT_FOUND}
       />
-    )}
-  </FlexGrid>;
-};
+      ))}
+    </FlexGrid>
+  )
+}
 
 export default ActorGrid;

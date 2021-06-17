@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Route, Router } from 'react-router-dom';
+import { BrowserRouter as Route } from 'react-router-dom'; // Router
 import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Route>
     <App />
-  </BrowserRouter>,
+  </Route>,
   document.getElementById('root')
 );
 

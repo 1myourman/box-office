@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Starred from './pages/Starred';
+import Navs from './components/Navs';
 
 function App() {
   return (

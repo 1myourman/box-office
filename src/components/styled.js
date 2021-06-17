@@ -1,4 +1,4 @@
-import styled from 'styled-components
+import styled from 'styled-components';
 
 export const FlexGrid = styled.div`
     display: flex;
@@ -34,4 +34,3 @@ p {
   margin: 0;
 }
 `;
-`

@@ -1,6 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line import/no-unresolved
-import IMG_PLACEHOLDER from '../../misc/Asstes - BoxOffice/not_found.png';
+import { IMG_PLACEHOLDER } from '../misc/Asstes - BoxOffice/not_found.png';
+import { Star } from '../styled';
 import { Headline, MainDataWrapper, TagList } from './ShowMainData.styled';
 
 const ShowMainData = ({ name, rating, summary, tags, image }) => {
@@ -11,7 +12,7 @@ const ShowMainData = ({ name, rating, summary, tags, image }) => {
         <Headline>
           <h1>{name}</h1>
           <div>
-            <Star />
+            <Star active />
             <span>{rating.average || 'N/A'}</span>
           </div>
         </Headline>

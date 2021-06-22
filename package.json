@@ -1,6 +1,6 @@
 {
   "name": "box-office",
-  "version": "0.1.0",
+  "version": "yarn install",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -69,5 +69,10 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2"
-  }
+  },
+  "description": "yarn",
+  "main": "index.js",
+  "repository": "https://github.com/1myourman/github.io-box-office.git",
+  "author": "Alice <59229770+1myourman@users.noreply.github.com>",
+  "license": "MIT"
 }

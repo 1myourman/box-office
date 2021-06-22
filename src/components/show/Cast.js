@@ -1,5 +1,5 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
-// eslint-disable-next-line import/no-unresolved
 import IMG_PLACEHOLDER from '../../images/not_found.png';
 import { CastList } from './Cast.styled';
 

@@ -21,5 +21,12 @@
     "react-hooks/exhaustive-deps": "warn",
     "arrow-body-style": [0],
     "prefer-arrow-callback": [0]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
   }
 }

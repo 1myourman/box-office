@@ -1,7 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import Navs from './components/Navs';
 import Home from './pages/Home';
 import Show from './pages/Show';
 import Starred from './pages/Starred';
@@ -16,7 +15,7 @@ const theme = {
 
 function App() {
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
       <Switch>
         <Route exact path="/">
           <Home />
